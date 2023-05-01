@@ -1,2 +1,4 @@
 # Sosobo-code-Python
-My python things
+README
+You dont need to read me.
+My python stuff
