@@ -20,9 +20,9 @@ questions = ("what is 2 + 2? \n (a) 5\n (b) 4\n (c) 9\n (d) 2\n", #0
              "What does CPU stand for?\n (a) Central Process Unit\n (b)Centralized Proccesser Units\n (c) Central Processing Unit\n (d) Cententrally Processed Utility", #9
              "How many Mb is 4Gb?\n (a) 4000mb\n (b) 4096mb\n (c)4028mb\n (d)4128mb", #10
              "What is larger than a Petabyte, but smaller than a Zettabyte?\n (a) Picobyte\n (b) Ultrabyte\n (c) Exabyte\n (d) Yottabyte", #11
-             "Which Duo were the first Aviators?\n (a) Alex Wright & Wilbur Reed\n (b) Wilbur Wright & Orville Wright\n (c) Alex Reed & Orville Reed\n (d) Wilbur Wright & Orville Reed"
-             "What is the best selling GPU as of 2023?\n (a) Nvidia Geforce RTX 3060\n (b) Nvidia Geforce GTX 1080\n (c)Nvidia Geforce 1650Ti\n (d)AMD RX 580"
-             "Which of these is not a real operating system?\n (a)Unix\n (b) Ux2-DOS\n (c) MS-DOS\n (d) DR-DOS")
+             "Which Duo were the first Aviators?\n (a) Alex Wright & Wilbur Reed\n (b) Wilbur Wright & Orville Wright\n (c) Alex Reed & Orville Reed\n (d) Wilbur Wright & Orville Reed" #12
+             "What is the best selling GPU as of 2023?\n (a) Nvidia Geforce RTX 3060\n (b) Nvidia Geforce GTX 1080\n (c)Nvidia Geforce 1650Ti\n (d)AMD RX 580" #13
+             "Which of these is not a real operating system?\n (a)Unix\n (b) Ux2-DOS\n (c) MS-DOS\n (d) DR-DOS") #14
 
 answers = ("b", "b", "b", "a", "b", "d", "b", "c", "c", "c", "b", "c", "b", "a", "b")
 
@@ -66,56 +66,3 @@ askquestion()
 while playagain():
     #print("The correct answers were...\n 1: (b) - 4\n 2: (b) - Windows 10\n 3: (b) - FORTRAN\n 4: (a) - Gabe Newell and Mike Harrington\n 5: (b) - Video Game Developers and Digital Publishing\n6: (d) - 1911\n 7: (b) - False\n 8: (c) - Japan\n 9: (c) Graphics Proccessing Unit\n 10: (c) - Central Processing Unit\n 11: (b) - 4096Mb\n 12: (c) - Exabyte\n 13: (b) - Wilblur Wright & Orville Wright\n 14: (a) - Nvidia Geforce RTX 3060\n 15: (b) Ux2-DOS")
     askquestion()
-
-
-###I have commented everything beyond this point because there was unncessessary repitition.
-    
-
-
-# #Where the questions are printed.
-# q1 = input(questions[0])
-
-# if q1 == answers[0]:
-#     print("Good, you are elligible to do this quiz.!")
-#     points += 1
-# else:   #Exits script meaning you are not elligible to complete quiz.
-#     print("May god help you...")
-#     exit()
-
-# q2 = input(questions[1])
-
-# if q2 == answers[1]:
-#     print("CORRECT!")
-#     points += 1
-# else:
-#     print("WRONG :(.")
-
-# q3 = input(questions[2])
-
-# if q3 == answers[2]:
-#     print("CORRECT!")
-#     points += 1
-# else:
-#     print("WRONG :(.")
-# q4 = input(questions[3])
-
-# if q4 == answers[3]:
-#     print("CORRECT!")
-#     points += 1
-# else:
-#     print("WRONG :(.")
-# q5 = input(questions[4])
-
-# if q5 == answers[4]:
-#     print("CORRECT!")
-#     points += 1
-# else:
-#     print("WRONG :(.")
-# q6 = input(questions[5])
-# if q6 == answers[5]:
-#     print("CORRECT, you may continue onto the next question.")
-#     points += 1
-# else:
-#     print("...")
-#     print("you got", points, "points")
-#     exit()
