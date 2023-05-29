@@ -20,10 +20,11 @@ questions = ("what is 2 + 2? \n (a) 5\n (b) 4\n (c) 9\n (d) 2\n", #0
              "What does CPU stand for?\n (a) Central Process Unit\n (b)Centralized Proccesser Units\n (c) Central Processing Unit\n (d) Cententrally Processed Utility", #9
              "How many Mb is 4Gb?\n (a) 4000mb\n (b) 4096mb\n (c)4028mb\n (d)4128mb", #10
              "What is larger than a Petabyte, but smaller than a Zettabyte?\n (a) Picobyte\n (b) Ultrabyte\n (c) Exabyte\n (d) Yottabyte", #11
-             "Which Duo were the first Aviators?\n (a) Alex Wright & Wilbur Reed\n (b) Wilbur Wright & Orville Wright\n (c) Alex Reed & Orville Reed\n (d) Wilbur Wright & Orville Reed" #12
-             "What is the best selling GPU as of 2023?\n (a) Nvidia Geforce RTX 3060\n (b) Nvidia Geforce GTX 1080\n (c)Nvidia Geforce 1650Ti\n (d)AMD RX 580" #13
+             "Which Duo were the first Aviators?\n (a) Alex Wright & Wilbur Reed\n (b) Wilbur Wright & Orville Wright\n (c) Alex Reed & Orville Reed\n (d) Wilbur Wright & Orville Reed", #12
+             "What is the best selling GPU as of 2023?\n (a) Nvidia Geforce RTX 3060\n (b) Nvidia Geforce GTX 1080\n (c)Nvidia Geforce 1650Ti\n (d)AMD RX 580\n", #13
              "Which of these is not a real operating system?\n (a)Unix\n (b) Ux2-DOS\n (c) MS-DOS\n (d) DR-DOS") #14
 
+#Answers
 answers = ("b", "b", "b", "a", "b", "d", "b", "c", "c", "c", "b", "c", "b", "a", "b")
 
 
